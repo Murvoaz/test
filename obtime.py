@@ -2,7 +2,7 @@ import datetime
 
 
 def otime() :
-    jour = str(datetime.datetime.now())
+    jour = "Nous sommes le " + str(datetime.datetime.now())
     return jour
 
 def clic(nombre):
